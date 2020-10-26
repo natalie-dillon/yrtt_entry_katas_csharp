@@ -10,7 +10,7 @@ namespace TechReturners.Tasks
     {
         public static int Past(int h, int m, int s)
         {
-            var timeMs = (h * 60 * 60000) + (m * 60000) + (s * 1000);
+            var timeMs = (h * 3600000) + (m * 60000) + (s * 1000);
             return timeMs;
         }
     }
