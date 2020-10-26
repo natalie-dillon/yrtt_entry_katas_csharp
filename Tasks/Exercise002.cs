@@ -10,7 +10,8 @@ namespace TechReturners.Tasks
     {
         public static int Past(int h, int m, int s)
         {
-            throw new NotImplementedException();
+            var timeMs = (h * 60 * 60000) + (m * 60000) + (s * 1000);
+            return timeMs;
         }
     }
 }

@@ -14,7 +14,8 @@ namespace TechReturners.Tasks.UnitTests
         public void CheckPast()
         {
             Assert.Equal(61000, Exercise002.Past(0, 1, 1));
-            Assert.Equal(3661000, Exercise002.Past(0, 1, 1));
+            Assert.Equal(3661000, Exercise002.Past(1, 1, 1));
+            // Assert.Equal(3661000, Exercise002.Past(0, 1, 1));
             Assert.Equal(0, Exercise002.Past(0, 0, 0));
             Assert.Equal(3601000, Exercise002.Past(1, 0, 1));
             Assert.Equal(3600000, Exercise002.Past(1, 0, 0));
